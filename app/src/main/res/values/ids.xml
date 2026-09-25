@@ -1,0 +1,6 @@
+<resources>
+    <item name="control_interact" type="id" />
+    <item name="control_labels" type="id" />
+    <item name="control_close" type="id" />
+    <item name="control_fullscreen" type="id" />
+</resources>

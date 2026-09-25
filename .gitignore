@@ -1,0 +1,29 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Local release identity and generated deliverables
+/.signing/
+/artifacts/
+/app/build/
+
+# Local planning, signing keys, and generated files
+IMPLEMENTATION.md
+/key/
+*.jks
+*.keystore
+/.idea/
+/.kotlin/
+/app/release/

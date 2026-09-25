@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Model Studio</string>
+    <string name="add_model">Add model</string>
+    <string name="workspace_title">Model studio</string>
+    <string name="workspace_subtitle">3D Model Viewer</string>
+    <string name="help">Help</string>
+    <string name="empty_title">3D Model Viewer</string>
+    <string name="empty_body">Load a model to view and interact with it.</string>
+    <string name="offline">5 built-in models · Works offline</string>
+    <string name="ready">Your workspace is ready</string>
+    <string name="zero_models">0 models</string>
+    <string name="picker_title">Choose Model</string>
+    <string name="picker_subtitle">Select a 3D model to load.</string>
+    <string name="picker_row">%1$s\n%2$s</string>
+    <string name="add_named">Add %1$s</string>
+    <string name="card_title">%1$s</string>
+    <string name="expand_named">Expand %1$s</string>
+    <string name="restore_named">Restore %1$s</string>
+    <string name="interact_named">Interact with %1$s</string>
+    <string name="stop_interacting_named">Stop interacting with %1$s</string>
+    <string name="show_labels_named">Show labels for %1$s</string>
+    <string name="hide_labels_named">Hide labels for %1$s</string>
+    <string name="close_named">Close %1$s</string>
+    <string name="interact">Interact</string><string name="labels">Labels</string><string name="close">Close</string>
+    <string name="arrange_hint">Drag to move · Pinch to resize</string>
+    <string name="interact_hint">Drag to rotate · Pinch to zoom</string>
+    <string name="loading_named">Opening %1$s…</string>
+    <string name="restoring">Restoring workspace…</string>
+    <string name="load_failed">Could not open %1$s. Please try again.</string>
+    <string name="retry">Retry</string>
+    <string name="focus_hint">Tap a card to bring it forward</string>
+    <string name="help_title">Make it your workspace</string>
+    <string name="got_it">Got it</string>
+    <string name="help_intro">Start by dragging a card to move it or pinching to resize it. Long-press any icon to see its name.</string>
+    <string name="help_interact">Switch between moving the card and interacting with the model. When selected, drag to rotate and pinch to zoom. Fullscreen selects this automatically.</string>
+    <string name="help_labels">Show or hide the model’s part names and the lines pointing to each part.</string>
+    <string name="help_close">Remove this model from the workspace. You can add it again from Add model.</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="restore_size">Exit fullscreen</string>
+    <string name="help_fullscreen">Expand the model and automatically turn interaction on, ready to rotate and zoom.</string>
+    <string name="help_restore">Restore the card’s previous size and turn interaction off. The Back button does the same.</string>
+    <string name="help_reopen">Each time you open the app, your models return as movable cards with Interact unselected.</string>
+    <string-array name="model_subtitles">
+        <item>Electricity · 6 labelled parts</item><item>Biology · 7 labelled parts</item>
+        <item>Anatomy · 5 labelled parts</item><item>Optics · 12 labelled parts</item>
+        <item>Space · 9 embedded labels</item>
+    </string-array>
+    <string name="arrange">Arrange</string>
+    <string name="arrange_hint_short">Move · Resize</string>
+    <string name="interact_hint_short">Rotate · Zoom</string>
+</resources>

@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout android:id="@+id/workspaceHeader" android:layout_width="match_parent" android:layout_height="76dp"
+        android:gravity="center_vertical" android:paddingStart="20dp" android:paddingEnd="12dp" android:orientation="horizontal">
+        <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/workspace_title" android:textSize="22sp" android:fontFamily="sans-serif-medium" android:textColor="@color/text_primary" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/workspace_subtitle" android:layout_marginTop="3dp" android:textSize="11sp" android:textColor="@color/text_secondary" />
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton android:id="@+id/arrangeButton" style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="70dp" android:layout_height="48dp" android:text="@string/arrange" android:textSize="11sp" android:padding="0dp" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/helpButton" style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="52dp" android:layout_height="48dp" android:text="@string/help" android:textSize="12sp" />
+    </LinearLayout>
+    <FrameLayout android:id="@+id/workspace" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextureView android:id="@+id/textureView" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <LinearLayout android:id="@+id/emptyState" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="center"
+            android:gravity="center" android:orientation="vertical" android:padding="24dp" android:importantForAccessibility="no">
+            <ImageView android:layout_width="112dp" android:layout_height="112dp" android:src="@drawable/ic_studio" android:contentDescription="@null" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26dp" android:text="@string/empty_title" android:textSize="27sp" android:textColor="@color/text_primary" android:fontFamily="sans-serif-medium" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/empty_body" android:textSize="14sp" android:lineSpacingExtra="5dp" android:gravity="center" android:textColor="@color/text_secondary" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/offline" android:textSize="11sp" android:letterSpacing="0.12" android:textColor="#668E8B" />
+        </LinearLayout>
+        <FrameLayout android:id="@+id/containerLayer" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@+id/loadProgress" android:layout_width="match_parent" android:layout_height="3dp" android:visibility="invisible" app:indicatorColor="@color/accent" />
+    <LinearLayout android:id="@+id/workspaceFooter" android:layout_width="match_parent" android:layout_height="88dp" android:orientation="horizontal" android:gravity="center_vertical" android:paddingStart="20dp" android:paddingEnd="20dp">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+            <TextView android:id="@+id/modelCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero_models" android:textColor="@color/text_primary" android:textSize="15sp" android:fontFamily="sans-serif-medium" />
+            <TextView android:id="@+id/statusText" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ready" android:layout_marginTop="4dp" android:textColor="@color/text_secondary" android:textSize="11sp" android:maxLines="2" />
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton android:id="@+id/fabAddModel" android:layout_width="144dp" android:layout_height="56dp"
+            android:text="@string/add_model" android:textSize="13sp" android:layout_marginStart="8dp" app:cornerRadius="16dp" app:icon="@android:drawable/ic_input_add" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <style name="Base.Theme._3DModelViewer" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorOnPrimary">#102D2D</item>
+        <item name="colorPrimaryContainer">@color/accent_dark</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:windowBackground">@color/workspace</item>
+        <item name="android:statusBarColor">@color/workspace</item>
+        <item name="android:navigationBarColor">@color/workspace</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+    <style name="Theme._3DModelViewer" parent="Base.Theme._3DModelViewer" />
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <color name="accent">#79E3D4</color>
+    <color name="accent_dark">#224C49</color>
+    <color name="workspace">#07080B</color>
+    <color name="surface">#111720</color>
+    <color name="text_primary">#EEF3F8</color>
+    <color name="text_secondary">#91A2B8</color>
+</resources>
